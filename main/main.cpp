@@ -1,9 +1,11 @@
 #include <stdio.h>
-#include "add.h"
+#include <string>
+#include "pair.h"
 
 int main() {
-  printf("hello!\n");
-  printf("%d\n", add(1, 2));
+  TPair<char, bool> a('a', 1);
+  TPair<unsigned int, float> b(-2, 3.81);
+
 
   return 0;
 }
